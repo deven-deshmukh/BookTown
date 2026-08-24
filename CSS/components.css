@@ -79,13 +79,9 @@ img,
   color: var(--bronze-hover);
 }
 
-.nav-bar li + li {
-  border-left: 1px solid var(--bronze-accent);
-}
-
 .second-navbar-bi-list-clicked {
   background: var(--marble-surface);
-  border-bottom: 1px solid var(--bronze-accent);
+  border-bottom: 1px solid var(--border-stone);
 }
 
 /*******************section shells*******************/
