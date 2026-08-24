@@ -120,19 +120,6 @@
 }
 
 
-.nav-bar  {
-    height: 4.7rem;
-}
-
-.nav-bar li {
-    transition: all ease .2s;
-}
-
-.nav-bar a{
-    border-radius: inherit;
-    line-height: 4.7rem;
-}
-
 .upper-main-body .carousel:hover ,.philosophy-img-pop-up .carousel:hover , .novels-img-pop-up .carousel:hover {
     filter: brightness(95%);
 }
