@@ -152,10 +152,10 @@ img,
   background: transparent;
   color: var(--iron-text);
   font-family: var(--font-body);
-  font-size: 1.25rem;
-  letter-spacing: 0.2em;
+  font-size: 1.4rem;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  padding: 0.5rem 0.3rem;
+  padding: 0.6rem 0.4rem;
   box-shadow: none;
 }
 
@@ -169,7 +169,9 @@ img,
 .personal-profile .btn-outline-danger svg,
 .personal-profile .btn-danger svg {
   vertical-align: middle;
-  margin-right: 0.4rem;
+  margin-right: 0.5rem;
+  width: 1.2em;
+  height: 1.2em;
 }
 
 /*******************search input: underline only*******************/
