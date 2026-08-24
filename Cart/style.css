@@ -1,3 +1,7 @@
+@import url(../CSS/reset.css);
+@import url(../CSS/Utiles.css);
+@import url(../CSS/components.css);
+
 .modal-body {
     max-height: 19rem;
     overflow: scroll;

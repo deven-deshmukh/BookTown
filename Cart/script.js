@@ -9,7 +9,7 @@ if (parsedData) {
           <div class="d-flex align-items-center">
             <img
               src="${product.cover}"
-              class="img-fluid rounded-3"
+              class="img-fluid"
               style="width: 120px"
               alt="Book"
             />
@@ -96,7 +96,7 @@ parsedData.forEach((product) => {
     <div class="d-flex align-items-center">
       <img
         src="${product.cover}"
-        class="img-fluid rounded-3"
+        class="img-fluid"
         style="width: 120px"
         alt="Book"
       />
@@ -122,7 +122,7 @@ function modalBody2Creator() {
   totalPrice = Math.round(totalPrice * 100) / 100;
   const productBody2 = ` <div class="mb-5">
 <div class="form-floating">
-  <input type="number" class="form-control border border-danger border-opacity-25" id="form3Examplea2" placeholder="v">
+  <input type="number" class="form-control border border-light" id="form3Examplea2" placeholder="v">
   <label class="form-label" for="form3Examplea2">Enter your discount code (for e.g. Enter a number(1,70))</label>
 </div>
 </div>

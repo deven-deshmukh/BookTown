@@ -10,8 +10,8 @@
 }
 .thumb-wrapper {
   padding: 2.5rem 1.5rem;
-  background: #fff;
-  border-radius: 0.6rem;
+  background: var(--bg-surface);
+  border-radius: 0;
   text-align: center;
   position: relative;
 }
@@ -27,15 +27,14 @@
 .thumb-content .btn:hover,
 .thumb-content .btn:focus {
   color: #fff;
-  background: #dc3546e2;
+  background: var(--royal-gold-hover);
 }
-
 .star-rating li {
   padding: 0;
 }
 .star-rating i {
   font-size: 1.4rem;
-  color: #ffc000;
+  color: var(--royal-gold);
 }
 
 .thumb-wrapper {
@@ -63,8 +62,8 @@
   position: absolute;
   top: 0;
   right: 0;
-  background-color: red;
-  color: white;
+  background-color: var(--royal-gold);
+  color: var(--royal-blue);
   font-size: 12px;
   border-radius: 50%;
   width: 18px;

@@ -1,0 +1,122 @@
+/*******************royal theme layer*******************
+ * Loaded after Bootstrap on every page so these rules win
+ * the cascade. All colors come from tokens in Utiles.css.
+ *******************************************************/
+
+/*******************buttons*******************/
+/* Primary action: solid royal blue -> lighter blue on hover */
+.btn-danger {
+  background-color: var(--royal-blue);
+  border-color: var(--royal-blue);
+  color: #fff;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active {
+  background-color: var(--royal-blue-hover);
+  border-color: var(--royal-blue-hover);
+  color: #fff;
+}
+
+/* Secondary action: ghost button with champagne-gold border */
+.btn-outline-danger {
+  background-color: transparent;
+  border: 1px solid var(--royal-gold);
+  color: var(--royal-gold);
+  letter-spacing: 0.05em;
+  transition: all 0.25s ease;
+}
+
+.btn-outline-danger:hover,
+.btn-outline-danger:focus,
+.btn-outline-danger:active {
+  background-color: var(--royal-gold-hover);
+  border-color: var(--royal-gold-hover);
+  color: #fff;
+}
+
+/*******************category nav strip*******************/
+.nav-link-royal {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: var(--royal-blue);
+  color: #fff;
+  font-family: var(--font-body);
+  letter-spacing: 0.12em;
+  transition: color 0.25s ease;
+}
+
+.nav-bar .categorie:hover .nav-link-royal {
+  color: var(--royal-gold-hover);
+}
+
+/*******************section shells & cards*******************/
+.shell-royal {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-light) !important;
+  border-radius: 2px !important;
+  box-shadow: 0 1px 3px rgba(10, 25, 47, 0.06) !important;
+}
+
+.thumb-wrapper {
+  border: 1px solid var(--border-light);
+  border-radius: 0;
+}
+
+.divider-gold {
+  border-left: 2px solid var(--border-gold);
+}
+
+.overlay-royal {
+  background: rgba(10, 25, 47, 0.55);
+}
+
+/*******************ratings & accents*******************/
+.ratings i,
+.star-rating i {
+  color: var(--royal-gold) !important;
+}
+
+.text-royal-accent {
+  color: var(--royal-gold);
+}
+
+/*******************forms*******************/
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--royal-gold);
+  box-shadow: 0 0 0.2rem 0.1rem var(--border-gold);
+}
+
+/*******************footer (royal)*******************/
+.footer-royal {
+  background: var(--royal-blue);
+  color: #fff;
+}
+
+.footer-hairline {
+  border-top: 1px solid var(--border-gold);
+}
+
+.social-royal,
+.f_social_icon a.social-royal {
+  width: 44px;
+  height: 44px;
+  line-height: 42px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid var(--border-gold);
+  color: var(--royal-gold);
+  transition: all 0.25s ease;
+}
+
+.social-royal:hover,
+.f_social_icon a.social-royal:hover {
+  background: var(--royal-gold-hover);
+  border-color: var(--royal-gold-hover);
+  color: var(--royal-blue);
+}

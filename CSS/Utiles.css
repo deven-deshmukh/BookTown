@@ -1,8 +1,53 @@
-  /*******************font-size*******************/
-  
-  .fs-10 {
-    font-size: 10px;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Montserrat:wght@300;400;500&display=swap');
+
+/*******************royal design tokens*******************/
+
+:root {
+  /* Primary Brand Colors */
+  --royal-blue: #0A192F;      /* Deep, rich navy for headers, footer, and primary buttons */
+  --royal-blue-hover: #16305A;/* Slightly lighter navy for hover states */
+  --royal-gold: #C5A059;      /* Champagne gold for accents, buttons, and stars */
+  --royal-gold-hover: #D4AF37;/* Brighter gold for hover states */
+
+  /* Backgrounds & Surfaces */
+  --bg-parchment: #FDFBF7;    /* Warm off-white main page background */
+  --bg-surface: #FFFFFF;      /* Pure white for book cards */
+
+  /* Typography */
+  --text-main: #2C3539;       /* Deep charcoal for readable body text */
+  --text-muted: #6B7280;      /* Elegant grey for secondary text */
+
+  /* UI Elements */
+  --border-light: #E5E7EB;
+  --border-gold: rgba(197, 160, 89, 0.4);
+
+  /* Fonts */
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  letter-spacing: 0.04em;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+.btn,
+button,
+input,
+select,
+textarea {
+  font-family: var(--font-body);
+}
+
+/*******************font-size*******************/
+
+.fs-10 {
+  font-size: 10px;
+}
   
   .fs-12 {
     font-size: 12px;
@@ -17,7 +62,7 @@
     font-size: 18px;
   }
   .fs-20 {
-    font-size: 2px;
+    font-size: 20px;
   }
   .fs-22 {
     font-size: 22px;
@@ -32,7 +77,7 @@
     font-size: 28px;
   }
   .fs-30 {
-    font-size: 3px;
+    font-size: 30px;
   }
   .fs-32 {
     font-size: 32px;
