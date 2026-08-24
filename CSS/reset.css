@@ -9,7 +9,7 @@ a {
 
 :root {
   /* Beaux-Arts palette */
-  --stone-bg: #F8F8F6;        /* Alabaster/limestone page background */
+  --stone-bg: #F9EDD8;        /* Royal warm cream: white blended with red & yellow */
   --marble-surface: #FFFFFF;  /* Cards, modals, input fields */
   --iron-text: #2C2C2C;       /* Primary text, headings */
   --slate-muted: #6B6B6B;     /* Secondary text, metadata */
