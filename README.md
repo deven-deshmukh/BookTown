@@ -20,7 +20,7 @@
   <h2>🏛️ A Beaux-Arts Digital Bookstore</h2>
   <p><em>Where classical architecture meets modern commerce</em></p>
   
-  <img src="https://user-images.githubusercontent.com/placeholder/hero-preview.gif" alt="BookTown Hero Preview" width="800" />
+  <img src="https://img.shields.io/badge/Hero-Video%20Background-C5A059?style=for-the-badge&logo=video&logoColor=F8F8F6" alt="Hero Video Preview" />
   
 </div>
 
@@ -75,14 +75,14 @@
 
 | Token | Hex | Preview | Usage |
 |-------|-----|---------|-------|
-| `--stone-bg` | `#F8F8F6` | <img src="https://via.placeholder.com/20/F8F8F6/000000?text=+" width="20" height="20" /> | Page background |
-| `--marble-surface` | `#FFFFFF` | <img src="https://via.placeholder.com/20/FFFFFF/000000?text=+" width="20" height="20" /> | Cards, modals, inputs |
-| `--iron-text` | `#2C2C2C` | <img src="https://via.placeholder.com/20/2C2C2C/FFFFFF?text=+" width="20" height="20" /> | Primary text, headings |
-| `--slate-muted` | `#6B6B6B` | <img src="https://via.placeholder.com/20/6B6B6B/FFFFFF?text=+" width="20" height="20" /> | Secondary text |
-| `--bronze-accent` | `#9A8362` | <img src="https://via.placeholder.com/20/9A8362/FFFFFF?text=+" width="20" height="20" /> | Primary buttons, borders |
-| `--bronze-hover` | `#7D694E` | <img src="https://via.placeholder.com/20/7D694E/FFFFFF?text=+" width="20" height="20" /> | Hover states |
-| `--bronze-light` | `#C0AE93` | <img src="https://via.placeholder.com/20/C0AE93/000000?text=+" width="20" height="20" /> | Metallic gradients |
-| `--border-stone` | `#E0DDD5` | <img src="https://via.placeholder.com/20/E0DDD5/000000?text=+" width="20" height="20" /> | Hairline borders |
+| `--stone-bg` | `#F8F8F6` | ![](https://img.shields.io/badge/-F8F8F6-F8F8F6?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjRjhGOEY2Ii8+PC9zdmc+) | Page background |
+| `--marble-surface` | `#FFFFFF` | ![](https://img.shields.io/badge/-FFFFFF-FFFFFF?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjRkZGRkZGIi8+PC9zdmc+) | Cards, modals, inputs |
+| `--iron-text` | `#2C2C2C` | ![](https://img.shields.io/badge/-2C2C2C-2C2C2C?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjMkMyQzJDIi8+PC9zdmc+) | Primary text, headings |
+| `--slate-muted` | `#6B6B6B` | ![](https://img.shields.io/badge/-6B6B6B-6B6B6B?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjNkI2QjZCIi8+PC9zdmc+) | Secondary text |
+| `--bronze-accent` | `#9A8362` | ![](https://img.shields.io/badge/-9A8362-9A8362?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjOUE4MzYyIi8+PC9zdmc+) | Primary buttons, borders |
+| `--bronze-hover` | `#7D694E` | ![](https://img.shields.io/badge/-7D694E-7D694E?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjN0Q2OTRFSS8+PC9zdmc+) | Hover states |
+| `--bronze-light` | `#C0AE93` | ![](https://img.shields.io/badge/-C0AE93-C0AE93?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjQzBBRTkzIi8+PC9zdmc+) | Metallic gradients |
+| `--border-stone` | `#E0DDD5` | ![](https://img.shields.io/badge/-E0DDD5-E0DDD5?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjRTBERERWIi8+PC9zdmc+) | Hairline borders |
 
 </div>
 
