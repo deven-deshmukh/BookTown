@@ -13,15 +13,25 @@
     overflow: hidden;
 }
 
+.hero-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
 .beaux-hero::before {
     content: "";
     position: absolute;
     inset: 0;
     pointer-events: none;
+    z-index: 1;
     background-image:
-        linear-gradient(180deg, rgba(44, 44, 44, 0) 70%, rgba(44, 44, 44, 0.08) 100%),
-        linear-gradient(155deg, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0) 45%),
-        linear-gradient(340deg, rgba(0, 0, 0, 0.05) 0%, rgba(249, 237, 216, 0) 55%);
+        linear-gradient(180deg, rgba(10, 25, 47, 0.35) 0%, rgba(10, 25, 47, 0.55) 100%),
+        linear-gradient(155deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 45%),
+        linear-gradient(340deg, rgba(0, 0, 0, 0.2) 0%, rgba(10, 25, 47, 0) 55%);
 }
 
 .beaux-hero::after {
@@ -29,17 +39,18 @@
     position: absolute;
     inset: 0;
     pointer-events: none;
+    z-index: 1;
     background-image:
-        radial-gradient(rgba(154, 131, 98, 0.20) 1px, transparent 1.5px),
         radial-gradient(rgba(154, 131, 98, 0.12) 1px, transparent 1.5px),
-        radial-gradient(rgba(192, 174, 147, 0.08) 0.6px, transparent 1.2px);
+        radial-gradient(rgba(154, 131, 98, 0.08) 1px, transparent 1.5px),
+        radial-gradient(rgba(192, 174, 147, 0.06) 0.6px, transparent 1.2px);
     background-size: 120px 120px, 180px 180px, 74px 74px;
     background-position: 12px 24px, 64px 92px, 36px 48px;
 }
 
 .beaux-hero-inner {
     position: relative;
-    z-index: 1;
+    z-index: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
