@@ -20,6 +20,7 @@
     height: 100%;
     object-fit: cover;
     z-index: 0;
+    background: #000;
 }
 
 .beaux-hero::before {
@@ -29,9 +30,8 @@
     pointer-events: none;
     z-index: 1;
     background-image:
-        linear-gradient(180deg, rgba(10, 25, 47, 0.35) 0%, rgba(10, 25, 47, 0.55) 100%),
-        linear-gradient(155deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 45%),
-        linear-gradient(340deg, rgba(0, 0, 0, 0.2) 0%, rgba(10, 25, 47, 0) 55%);
+        linear-gradient(180deg, rgba(10, 25, 47, 0.15) 0%, rgba(10, 25, 47, 0.25) 100%),
+        linear-gradient(155deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 45%);
 }
 
 .beaux-hero::after {
@@ -74,12 +74,14 @@
 .beaux-hero-tagline {
     margin: 0;
     padding-left: 0.3rem;
-    color: var(--slate-muted);
+    color: rgba(255, 248, 235, 0.92);
     font-family: var(--font-body);
     font-weight: 400;
-    font-size: clamp(1.2rem, 1.8vw, 1.5rem);
-    letter-spacing: 0.3rem;
-    text-transform: uppercase;
+    font-style: italic;
+    font-size: clamp(1.4rem, 2vw, 1.8rem);
+    letter-spacing: 0.18rem;
+    text-transform: none;
+    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.7), 0 0px 3px rgba(0, 0, 0, 0.5);
 }
 
 .beaux-hero-cta {
@@ -125,7 +127,7 @@
     }
     .beaux-hero-tagline {
         padding-left: 0.14rem;
-        letter-spacing: 0.14rem;
+        letter-spacing: 0.08rem;
         line-height: 1.9;
     }
 }
