@@ -432,5 +432,33 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
 }
 
-
-
+/* ── Scroll-to-top button ─────────────────────────────────────────────────── */
+#scrollTopBtn {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    width: 4.4rem;
+    height: 4.4rem;
+    background: var(--bronze-accent);
+    color: var(--marble-surface);
+    border: none;
+    border-radius: 0;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(1rem);
+    transition: opacity 0.3s ease, transform 0.3s ease, background 0.2s ease;
+    z-index: 999;
+    pointer-events: none;
+}
+#scrollTopBtn.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+#scrollTopBtn:hover {
+    background: var(--bronze-hover);
+}
