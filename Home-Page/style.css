@@ -2,18 +2,121 @@
 @import url(../CSS/Utiles.css);
 @import url(../CSS/components.css);
 
-.row-2 {
-    background: url(../IMG/deafults/bookcase-img.jpg.jpg) center no-repeat;
-    background-size: cover;
+.royal-hero {
+    position: relative;
+    min-height: 72vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8rem 1.5rem;
+    background-color: var(--royal-blue);
+    overflow: hidden;
 }
 
-.in-img-text h1, .in-img-text h3 {
-    color: rgba(255, 255, 255, 0.895);
-    transition: all ease .3s;
+.royal-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image:
+        linear-gradient(180deg, rgba(10, 25, 47, 0) 62%, rgba(10, 25, 47, 0.55) 100%),
+        linear-gradient(155deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0) 42%),
+        linear-gradient(340deg, rgba(22, 48, 90, 0.65) 0%, rgba(10, 25, 47, 0) 55%);
 }
 
-.in-img-text h1:hover , .in-img-text h3:hover {
-    color: var(--royal-gold-hover);
+.royal-hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image:
+        radial-gradient(rgba(212, 175, 55, 0.20) 1px, transparent 1.5px),
+        radial-gradient(rgba(197, 160, 89, 0.12) 1px, transparent 1.5px),
+        radial-gradient(rgba(238, 217, 164, 0.08) 0.6px, transparent 1.2px);
+    background-size: 120px 120px, 180px 180px, 74px 74px;
+    background-position: 12px 24px, 64px 92px, 36px 48px;
+}
+
+.royal-hero-inner {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2.2rem;
+    max-width: 82rem;
+}
+
+.royal-hero-title {
+    margin: 0;
+    color: var(--royal-gold);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: clamp(3.4rem, 7vw, 6.4rem);
+    line-height: 1.15;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.royal-hero-tagline {
+    margin: 0;
+    padding-left: 0.3rem;
+    color: var(--royal-gold);
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: clamp(1.2rem, 1.8vw, 1.5rem);
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+.royal-hero-cta {
+    display: inline-block;
+    margin-top: 1.4rem;
+    padding: 1.5rem 4.6rem;
+    border-radius: 0;
+    background-image: linear-gradient(120deg,
+        #b8934e 0%,
+        var(--royal-gold) 25%,
+        var(--royal-gold-light) 50%,
+        var(--royal-gold) 75%,
+        #b8934e 100%);
+    background-size: 200% auto;
+    background-position: center center;
+    color: var(--royal-blue);
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: 0.35em;
+    padding-left: calc(4.6rem + 0.35em);
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-position 0.5s ease, box-shadow 0.3s ease;
+}
+
+.royal-hero-cta:hover,
+.royal-hero-cta:focus {
+    background-position: left center;
+    box-shadow: 0 .8rem 2.4rem rgba(197, 160, 89, 0.28);
+    color: var(--royal-blue);
+}
+
+.royal-hero-cta:focus-visible {
+    outline: 1px solid var(--bg-parchment);
+    outline-offset: 3px;
+}
+
+@media (max-width: 576px) {
+    .royal-hero {
+        min-height: 60vh;
+        padding: 6rem 1rem;
+    }
+    .royal-hero-tagline {
+        padding-left: 0.14rem;
+        letter-spacing: 0.14rem;
+        line-height: 1.9;
+    }
 }
 
 

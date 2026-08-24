@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Montserrat:wght@300;400;500;700&display=swap');
 
 /*******************royal design tokens*******************/
 
@@ -8,6 +8,7 @@
   --royal-blue-hover: #16305A;/* Slightly lighter navy for hover states */
   --royal-gold: #C5A059;      /* Champagne gold for accents, buttons, and stars */
   --royal-gold-hover: #D4AF37;/* Brighter gold for hover states */
+  --royal-gold-light: #EED9A4;/* Pale gold highlight for metallic gradients */
 
   /* Backgrounds & Surfaces */
   --bg-parchment: #FDFBF7;    /* Warm off-white main page background */
