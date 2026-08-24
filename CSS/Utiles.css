@@ -1,31 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Montserrat:wght@300;400;500;700&display=swap');
-
-/*******************royal design tokens*******************/
-
-:root {
-  /* Primary Brand Colors */
-  --royal-blue: #0A192F;      /* Deep, rich navy for headers, footer, and primary buttons */
-  --royal-blue-hover: #16305A;/* Slightly lighter navy for hover states */
-  --royal-gold: #C5A059;      /* Champagne gold for accents, buttons, and stars */
-  --royal-gold-hover: #D4AF37;/* Brighter gold for hover states */
-  --royal-gold-light: #EED9A4;/* Pale gold highlight for metallic gradients */
-
-  /* Backgrounds & Surfaces */
-  --bg-parchment: #FDFBF7;    /* Warm off-white main page background */
-  --bg-surface: #FFFFFF;      /* Pure white for book cards */
-
-  /* Typography */
-  --text-main: #2C3539;       /* Deep charcoal for readable body text */
-  --text-muted: #6B7280;      /* Elegant grey for secondary text */
-
-  /* UI Elements */
-  --border-light: #E5E7EB;
-  --border-gold: rgba(197, 160, 89, 0.4);
-
-  /* Fonts */
-  --font-heading: 'Cinzel', serif;
-  --font-body: 'Montserrat', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Montserrat:wght@300;400;500&display=swap');
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
@@ -47,65 +20,65 @@ textarea {
 /*******************font-size*******************/
 
 .fs-10 {
-  font-size: 10px;
+  font-size: 1rem;
 }
   
   .fs-12 {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .fs-14 {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .fs-16 {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
   .fs-18 {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
   .fs-20 {
-    font-size: 20px;
+    font-size: 2rem;
   }
   .fs-22 {
-    font-size: 22px;
+    font-size: 2.2rem;
   }
   .fs-24 {
-    font-size: 24px;
+    font-size: 2.4rem;
   }
   .fs-26 {
-    font-size: 26px;
+    font-size: 2.6rem;
   }
   .fs-28 {
-    font-size: 28px;
+    font-size: 2.8rem;
   }
   .fs-30 {
-    font-size: 30px;
+    font-size: 3rem;
   }
   .fs-32 {
-    font-size: 32px;
+    font-size: 3.2rem;
   }
   .fs-34 {
-    font-size: 34px;
+    font-size: 3.4rem;
   }
   .fs-36 {
-    font-size: 36px;
+    font-size: 3.6rem;
   }
   .fs-38 {
-    font-size: 38px;
+    font-size: 3.8rem;
   }
   .fs-40 {
-    font-size: 40px;
+    font-size: 4rem;
   }
   .fs-42 {
-    font-size: 42px;
+    font-size: 4.2rem;
   }
   .fs-44 {
-    font-size: 44px;
+    font-size: 4.4rem;
   }
   .fs-46 {
-    font-size: 46px;
+    font-size: 4.6rem;
   }
   .fs-48 {
-    font-size: 48px;
+    font-size: 4.8rem;
   }
   
   /*******************font-weight*******************/

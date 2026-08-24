@@ -2,42 +2,42 @@
 @import url(../CSS/Utiles.css);
 @import url(../CSS/components.css);
 
-.royal-hero {
+.beaux-hero {
     position: relative;
     min-height: 72vh;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 8rem 1.5rem;
-    background-color: var(--royal-blue);
+    background-color: var(--stone-bg);
     overflow: hidden;
 }
 
-.royal-hero::before {
+.beaux-hero::before {
     content: "";
     position: absolute;
     inset: 0;
     pointer-events: none;
     background-image:
-        linear-gradient(180deg, rgba(10, 25, 47, 0) 62%, rgba(10, 25, 47, 0.55) 100%),
-        linear-gradient(155deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0) 42%),
-        linear-gradient(340deg, rgba(22, 48, 90, 0.65) 0%, rgba(10, 25, 47, 0) 55%);
+        linear-gradient(180deg, rgba(44, 44, 44, 0) 70%, rgba(44, 44, 44, 0.08) 100%),
+        linear-gradient(155deg, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0) 45%),
+        linear-gradient(340deg, rgba(0, 0, 0, 0.05) 0%, rgba(248, 248, 246, 0) 55%);
 }
 
-.royal-hero::after {
+.beaux-hero::after {
     content: "";
     position: absolute;
     inset: 0;
     pointer-events: none;
     background-image:
-        radial-gradient(rgba(212, 175, 55, 0.20) 1px, transparent 1.5px),
-        radial-gradient(rgba(197, 160, 89, 0.12) 1px, transparent 1.5px),
-        radial-gradient(rgba(238, 217, 164, 0.08) 0.6px, transparent 1.2px);
+        radial-gradient(rgba(154, 131, 98, 0.20) 1px, transparent 1.5px),
+        radial-gradient(rgba(154, 131, 98, 0.12) 1px, transparent 1.5px),
+        radial-gradient(rgba(192, 174, 147, 0.08) 0.6px, transparent 1.2px);
     background-size: 120px 120px, 180px 180px, 74px 74px;
     background-position: 12px 24px, 64px 92px, 36px 48px;
 }
 
-.royal-hero-inner {
+.beaux-hero-inner {
     position: relative;
     z-index: 1;
     display: flex;
@@ -49,9 +49,9 @@
     max-width: 82rem;
 }
 
-.royal-hero-title {
+.beaux-hero-title {
     margin: 0;
-    color: var(--royal-gold);
+    color: var(--bronze-accent);
     font-family: var(--font-heading);
     font-weight: 600;
     font-size: clamp(3.4rem, 7vw, 6.4rem);
@@ -60,10 +60,10 @@
     text-transform: uppercase;
 }
 
-.royal-hero-tagline {
+.beaux-hero-tagline {
     margin: 0;
     padding-left: 0.3rem;
-    color: var(--royal-gold);
+    color: var(--slate-muted);
     font-family: var(--font-body);
     font-weight: 400;
     font-size: clamp(1.2rem, 1.8vw, 1.5rem);
@@ -71,48 +71,48 @@
     text-transform: uppercase;
 }
 
-.royal-hero-cta {
+.beaux-hero-cta {
     display: inline-block;
     margin-top: 1.4rem;
     padding: 1.5rem 4.6rem;
     border-radius: 0;
     background-image: linear-gradient(120deg,
-        #b8934e 0%,
-        var(--royal-gold) 25%,
-        var(--royal-gold-light) 50%,
-        var(--royal-gold) 75%,
-        #b8934e 100%);
+        #7D694E 0%,
+        var(--bronze-accent) 25%,
+        var(--bronze-light) 50%,
+        var(--bronze-accent) 75%,
+        #7D694E 100%);
     background-size: 200% auto;
     background-position: center center;
-    color: var(--royal-blue);
+    color: var(--marble-surface);
     font-family: var(--font-body);
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.4rem;
-    letter-spacing: 0.35em;
-    padding-left: calc(4.6rem + 0.35em);
+    letter-spacing: 0.1rem;
+    padding-left: calc(4.6rem + 0.1rem);
     text-transform: uppercase;
     text-decoration: none;
     transition: background-position 0.5s ease, box-shadow 0.3s ease;
 }
 
-.royal-hero-cta:hover,
-.royal-hero-cta:focus {
+.beaux-hero-cta:hover,
+.beaux-hero-cta:focus {
     background-position: left center;
-    box-shadow: 0 .8rem 2.4rem rgba(197, 160, 89, 0.28);
-    color: var(--royal-blue);
+    box-shadow: 0 .8rem 2.4rem rgba(154, 131, 98, 0.28);
+    color: var(--marble-surface);
 }
 
-.royal-hero-cta:focus-visible {
-    outline: 1px solid var(--bg-parchment);
+.beaux-hero-cta:focus-visible {
+    outline: 1px solid var(--stone-bg);
     outline-offset: 3px;
 }
 
 @media (max-width: 576px) {
-    .royal-hero {
+    .beaux-hero {
         min-height: 60vh;
         padding: 6rem 1rem;
     }
-    .royal-hero-tagline {
+    .beaux-hero-tagline {
         padding-left: 0.14rem;
         letter-spacing: 0.14rem;
         line-height: 1.9;
@@ -139,7 +139,7 @@
 
 
 h2 {
-	color: var(--text-main);
+	color: var(--iron-text);
 	font-size: 2.6rem;
 	font-weight: 400;
 	letter-spacing: 0.12em;
@@ -150,11 +150,11 @@ h2 {
 }
 h2::after {
 	content: "";
-	width: 10.0rem;
+	width: 30%;
 	position: absolute;
 	margin: 0 auto;
 	height: 1px;
-	background: var(--royal-gold);
+	background: var(--bronze-accent);
 	left: 0;
 	right: 0;
 	bottom: -2.0rem;
@@ -165,18 +165,18 @@ h2::after {
 	padding: 0 7.0rem;
 }
 .carousel .item {
-	color: #747d89;
+	color: var(--slate-muted);
 	min-height: 32.5rem;
 	text-align: center;
 	overflow: hidden;
 }
 .carousel .thumb-wrapper {
-	padding: 2.5rem 1.5rem;
-	background: #fff;
-	border-radius: .6rem;
+	padding: 3rem 1.8rem;
+	background: var(--marble-surface);
+	border-radius: 0;
 	text-align: center;
 	position: relative;
-	box-shadow: 0 .2rem .3rem rgba(0,0,0,0.2);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.05);
     margin-bottom: 20px;
 }
 .carousel .item .img-box {
@@ -204,7 +204,7 @@ h2::after {
 
 .carousel .thumb-content .btn:hover, .carousel .thumb-content .btn:focus {
 	color: #fff;
-	background: var(--royal-gold-hover);
+	background: var(--bronze-hover);
 	box-shadow: none;
 }
 .carousel .thumb-content .btn i {
@@ -223,13 +223,13 @@ h2::after {
 .carousel-control-prev, .carousel-control-next {
 	height: 4.4rem;
 	width: 4.0rem;
-	background: var(--royal-gold);
+	background: var(--bronze-accent);
 	margin: auto 0;
 	border-radius: 0;
 	opacity: 0.85;
 }
 .carousel-control-prev:hover, .carousel-control-next:hover {
-	background: var(--royal-gold-hover);
+	background: var(--bronze-hover);
 	opacity: 1;
 }
 .carousel-control-prev i, .carousel-control-next i {
@@ -262,17 +262,17 @@ h2::after {
 	border: none;
 }
 .carousel-indicators li {	
-	background: var(--border-light);
+	background: var(--border-stone);
 }
 .carousel-indicators li.active {	
-	background: var(--royal-gold);
+	background: var(--bronze-accent);
 }
 .star-rating li {
 	padding: 0;
 }
 .star-rating i {
 	font-size: 1.4rem;
-	color: var(--royal-gold);
+	color: var(--bronze-accent);
 }
 
 .book-name {
@@ -288,16 +288,16 @@ h2::after {
 
 
 body {
-    background: var(--bg-parchment);
+    background: var(--stone-bg);
 }
 
 .new_footer_area {
-    background: var(--royal-blue);
+    background: var(--iron-text);
 }
 
 
 .new_footer_top {
-    padding: 120px 0px 270px;
+    padding: 120px 0px 60px;
     position: relative;
       overflow-x: hidden;
 }
@@ -324,14 +324,14 @@ body {
     margin-top: 20px;
 }
 .btn_get_two:hover {
-    background: var(--royal-gold-hover);
-    border-color: var(--royal-gold-hover);
-    color: var(--royal-blue);
+    background: var(--bronze-hover);
+    border-color: var(--bronze-hover);
+    color: var(--marble-surface);
 }
 .btn_get:hover {
-    color: var(--royal-gold);
+    color: var(--bronze-accent);
     background: transparent;
-    border-color: var(--royal-gold);
+    border-color: var(--bronze-accent);
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -343,7 +343,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 
 .new_footer_top .f_widget.about-widget .f_list li a:hover {
-    color: var(--royal-gold-hover);
+    color: var(--bronze-hover);
 }
 .new_footer_top .f_widget.about-widget .f_list li {
     margin-bottom: 11px;
@@ -362,16 +362,16 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     height: 44px;
     line-height: 34px;
     background: transparent;
-    border: 1px solid var(--border-gold);
+    border: 1px solid var(--bronze-accent);
     font-size: 24px;
 }
 .f_social_icon a {
     width: 46px;
     height: 46px;
-    border-radius: 50%;
+    border-radius: 0;
     font-size: 14px;
     line-height: 45px;
-    color: var(--royal-gold);
+    color: var(--bronze-accent);
     display: inline-block;
     background: transparent;
     text-align: center;
@@ -395,28 +395,28 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .btn_get_two {
     -webkit-box-shadow: none;
     box-shadow: none;
-    background: var(--royal-gold);
-    border-color: var(--royal-gold);
-    color: var(--royal-blue);
+    background: var(--bronze-accent);
+    border-color: var(--bronze-accent);
+    color: var(--marble-surface);
 }
 
 .btn_get_two:hover {
-    background: var(--royal-gold-hover);
-    border-color: var(--royal-gold-hover);
-    color: var(--royal-blue);
+    background: var(--bronze-hover);
+    border-color: var(--bronze-hover);
+    color: var(--marble-surface);
 }
 
 .new_footer_top .f_social_icon a:hover {
-    background: var(--royal-gold-hover);
-    border-color: var(--royal-gold-hover);
-  color:var(--royal-blue);
+    background: var(--bronze-hover);
+    border-color: var(--bronze-hover);
+  color:var(--marble-surface);
 }
 .new_footer_top .f_social_icon a + a {
     margin-left: 4px;
 }
 .new_footer_top .f-title {
     margin-bottom: 30px;
-    color: var(--royal-gold);
+    color: var(--bronze-accent);
 }
 .f_600 {
     font-weight: 600;
@@ -425,22 +425,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     font-size: 18px;
 }
 h1, h2, h3, h4, h5, h6 {
-    color: var(--text-main);
+    color: var(--iron-text);
 }
 .new_footer_top .f_widget.about-widget .f_list li a {
     color: rgba(255, 255, 255, 0.75);
     font-size: 16px;
-}
-
-
-
-@keyframes myfirst {
-  0% {
-    left: -25%;
-  }
-  100% {
-    left: 100%;
-  }
 }
 
 

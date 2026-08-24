@@ -6,3 +6,20 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+:root {
+  /* Beaux-Arts palette */
+  --stone-bg: #F8F8F6;        /* Alabaster/limestone page background */
+  --marble-surface: #FFFFFF;  /* Cards, modals, input fields */
+  --iron-text: #2C2C2C;       /* Primary text, headings */
+  --slate-muted: #6B6B6B;     /* Secondary text, metadata */
+  --bronze-accent: #9A8362;   /* Primary brand: buttons, active states, structural borders */
+  --bronze-hover: #7D694E;    /* Hover state bronze */
+  --bronze-light: #C0AE93;    /* Highlight stop for metallic gradients */
+  --bronze-glow: rgba(154, 131, 98, 0.4); /* Soft bronze focus ring */
+  --border-stone: #E0DDD5;    /* Warm stone hairline for inputs & dividers */
+
+  /* Fonts */
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Montserrat', sans-serif;
+}

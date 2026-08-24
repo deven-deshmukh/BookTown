@@ -1,122 +1,179 @@
-/*******************royal theme layer*******************
+/*******************beaux-arts theme layer*******************
  * Loaded after Bootstrap on every page so these rules win
- * the cascade. All colors come from tokens in Utiles.css.
- *******************************************************/
+ * the cascade. All colors come from tokens in reset.css.
+ ***********************************************************/
+
+/*******************formal hardscaping: sharp edges*******************/
+.btn,
+.card,
+.modal-content,
+.dropdown-menu,
+.dropdown-item,
+.form-control,
+.form-select,
+input,
+select,
+textarea,
+img,
+.thumb-wrapper {
+  border-radius: 0 !important;
+}
 
 /*******************buttons*******************/
-/* Primary action: solid royal blue -> lighter blue on hover */
+/* Primary action: solid bronze, sharp corners, white uppercase Montserrat */
 .btn-danger {
-  background-color: var(--royal-blue);
-  border-color: var(--royal-blue);
-  color: #fff;
+  background-color: var(--bronze-accent);
+  border-color: var(--bronze-accent);
+  border-radius: 0;
+  color: var(--marble-surface);
+  font-family: var(--font-body);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: all 0.25s ease;
 }
 
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger:active {
-  background-color: var(--royal-blue-hover);
-  border-color: var(--royal-blue-hover);
-  color: #fff;
+  background-color: var(--bronze-hover);
+  border-color: var(--bronze-hover);
+  color: var(--marble-surface);
 }
 
-/* Secondary action: ghost button with champagne-gold border */
+/* Secondary action: bronze ghost */
 .btn-outline-danger {
   background-color: transparent;
-  border: 1px solid var(--royal-gold);
-  color: var(--royal-gold);
-  letter-spacing: 0.05em;
+  border: 1px solid var(--bronze-accent);
+  border-radius: 0;
+  color: var(--bronze-accent);
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
   transition: all 0.25s ease;
 }
 
 .btn-outline-danger:hover,
 .btn-outline-danger:focus,
 .btn-outline-danger:active {
-  background-color: var(--royal-gold-hover);
-  border-color: var(--royal-gold-hover);
-  color: #fff;
+  background-color: var(--bronze-accent);
+  border-color: var(--bronze-accent);
+  color: var(--marble-surface);
 }
 
-/*******************category nav strip*******************/
-.nav-link-royal {
+/*******************category nav: the balustrade*******************/
+.nav-link-beaux {
   display: block;
   width: 100%;
   height: 100%;
-  background-color: var(--royal-blue);
-  color: #fff;
+  background-color: transparent;
+  color: var(--iron-text);
   font-family: var(--font-body);
+  font-weight: 400;
   letter-spacing: 0.12em;
+  text-transform: uppercase;
   transition: color 0.25s ease;
 }
 
-.nav-bar .categorie:hover .nav-link-royal {
-  color: var(--royal-gold-hover);
+.nav-bar .categorie:hover .nav-link-beaux {
+  color: var(--bronze-hover);
 }
 
-/*******************section shells & cards*******************/
-.shell-royal {
-  background: var(--bg-surface);
-  border: 1px solid var(--border-light) !important;
-  border-radius: 2px !important;
-  box-shadow: 0 1px 3px rgba(10, 25, 47, 0.06) !important;
+.nav-bar li + li {
+  border-left: 1px solid var(--bronze-accent);
 }
 
+.second-navbar-bi-list-clicked {
+  background: var(--marble-surface);
+  border-bottom: 1px solid var(--bronze-accent);
+}
+
+/*******************section shells*******************/
+.shell-beaux {
+  background: var(--marble-surface);
+  border: 1px solid var(--bronze-accent) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.divider-bronze {
+  border-left: 2px solid var(--bronze-accent);
+}
+
+.overlay-iron {
+  background: rgba(44, 44, 44, 0.6);
+}
+
+/*******************book cards: integrated sculpture*******************/
 .thumb-wrapper {
-  border: 1px solid var(--border-light);
+  background: var(--marble-surface);
+  border: 1px solid var(--bronze-accent);
   border-radius: 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
 }
 
-.divider-gold {
-  border-left: 2px solid var(--border-gold);
-}
-
-.overlay-royal {
-  background: rgba(10, 25, 47, 0.55);
+.thumb-content {
+  text-align: center;
 }
 
 /*******************ratings & accents*******************/
 .ratings i,
 .star-rating i {
-  color: var(--royal-gold) !important;
+  color: var(--bronze-accent) !important;
 }
 
-.text-royal-accent {
-  color: var(--royal-gold);
+.text-bronze-accent {
+  color: var(--bronze-accent);
 }
 
 /*******************forms*******************/
 .form-control:focus,
 .form-select:focus {
-  border-color: var(--royal-gold);
-  box-shadow: 0 0 0.2rem 0.1rem var(--border-gold);
+  border-color: var(--bronze-accent);
+  box-shadow: 0 0 0.2rem 0.1rem var(--bronze-glow);
 }
 
-/*******************footer (royal)*******************/
-.footer-royal {
-  background: var(--royal-blue);
-  color: #fff;
+/*******************logo wordmark*******************/
+.logo-wordmark {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 2.8rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--iron-text);
+}
+
+.logo-wordmark::first-letter {
+  color: var(--bronze-accent);
+}
+
+/*******************footer*******************/
+.footer-beaux {
+  background: var(--iron-text);
+  color: var(--marble-surface);
 }
 
 .footer-hairline {
-  border-top: 1px solid var(--border-gold);
+  border-top: 1px solid var(--bronze-accent);
 }
 
-.social-royal,
-.f_social_icon a.social-royal {
+.social-beaux,
+.f_social_icon a.social-beaux {
   width: 44px;
   height: 44px;
   line-height: 42px;
   display: inline-block;
   text-align: center;
-  border-radius: 50%;
+  border-radius: 0;
   background: transparent;
-  border: 1px solid var(--border-gold);
-  color: var(--royal-gold);
+  border: 1px solid var(--bronze-accent);
+  color: var(--bronze-accent);
   transition: all 0.25s ease;
 }
 
-.social-royal:hover,
-.f_social_icon a.social-royal:hover {
-  background: var(--royal-gold-hover);
-  border-color: var(--royal-gold-hover);
-  color: var(--royal-blue);
+.social-beaux:hover,
+.f_social_icon a.social-beaux:hover {
+  background: var(--bronze-accent);
+  border-color: var(--bronze-accent);
+  color: var(--marble-surface);
 }

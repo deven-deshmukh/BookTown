@@ -11,10 +11,10 @@
     font-size: 62.5%;
   }
   body{
-    background-color: var(--bg-parchment);
+    background-color: var(--stone-bg);
   }
   .wrapper{
-    background-color: var(--bg-surface);
+    background-color: var(--marble-surface);
     width: 50.0rem;
     padding: 2.5rem;
     margin: 2.5rem auto 0;
@@ -22,18 +22,18 @@
     border-radius: .2rem;
   }
   .wrapper h2{
-    background-color: var(--bg-surface);
-    color: var(--royal-blue);
+    background-color: var(--marble-surface);
+    color: var(--iron-text);
     font-size: 2.4rem;
     padding: 1.0rem;
     margin-bottom: 2.0rem;
     text-align: center;
-    border: .1rem dotted var(--border-gold);
+    border: .1rem dotted var(--bronze-glow);
     border-radius: .2rem;
   }
   h4{
     padding-bottom: .5rem;
-    color: var(--royal-blue);
+    color: var(--iron-text);
   }
   .input-group{
     margin-bottom: .8rem;
@@ -54,19 +54,19 @@
   .name{
     padding: 1.4rem 1.0rem 1.4rem 5.0rem;
     width: 100%;
-    background-color: var(--bg-surface);
-    border: .1rem solid var(--border-light);
+    background-color: var(--marble-surface);
+    border: .1rem solid var(--border-stone);
     outline: none;
     letter-spacing: .1rem;
     transition: 0.3s;
     border-radius: .2rem;
-    color: var(--text-main);
+    color: var(--iron-text);
   }
   .name:focus, .dob:focus{
-    -webkit-box-shadow:0 0 .2rem .1rem var(--border-gold);
-    -moz-box-shadow:0 0 .2rem .1rem var(--border-gold);
-    box-shadow: 0 0 .2rem .1rem var(--border-gold);
-    border: .1rem solid var(--royal-gold);
+    -webkit-box-shadow:0 0 .2rem .1rem var(--bronze-glow);
+    -moz-box-shadow:0 0 .2rem .1rem var(--bronze-glow);
+    box-shadow: 0 0 .2rem .1rem var(--bronze-glow);
+    border: .1rem solid var(--bronze-accent);
   }
   .input-box .icon{
     width: 4.8rem;
@@ -77,19 +77,19 @@
     top: .0rem;
     left: .0rem;
     bottom: .0rem;
-    color: var(--text-muted);
-    background-color: var(--bg-parchment);
+    color: var(--slate-muted);
+    background-color: var(--stone-bg);
     border-radius: .2rem 0 0 .2rem;
     transition: 0.3s;
     font-size: 2.0rem;
     pointer-events: none;
-    border: .1rem solid var(--border-light);
+    border: .1rem solid var(--border-stone);
     border-right: none;
   }
   .name:focus + .icon{
-    background-color: var(--royal-gold);
-    color: var(--royal-blue);
-    border-right: .1rem solid var(--royal-gold);
+    background-color: var(--bronze-accent);
+    color: var(--marble-surface);
+    border-right: .1rem solid var(--bronze-accent);
     border: none;
     transition: 1s;
   }
@@ -97,12 +97,12 @@
     width: 30%;
     padding: 1.4rem;
     text-align: center;
-    background-color: var(--bg-surface);
+    background-color: var(--marble-surface);
     transition: 0.3s;
     outline: none;
-    border: .1rem solid var(--border-light);
+    border: .1rem solid var(--border-stone);
     border-radius: .2rem;
-    color: var(--text-main);
+    color: var(--iron-text);
   }
   .radio{
     display: none;
@@ -110,10 +110,10 @@
   .input-box label{
     width: 50%;
     padding: 1.3rem;
-    background-color: var(--bg-surface);
+    background-color: var(--marble-surface);
     float: left;
     text-align: center;
-    border: .1rem solid var(--border-light);
+    border: .1rem solid var(--border-stone);
   }
   .input-box label:first-of-type{
     border-top-left-radius: .2rem;
@@ -125,7 +125,7 @@
     border-bottom-right-radius: .2rem;
   }
   .radio:checked + label{
-    background-color: var(--royal-blue);
+    background-color: var(--bronze-accent);
     color: #fff;
     transition: 0.5s;
   }
@@ -133,25 +133,25 @@
     display: inline-block;
     width: 50%;
     padding: 1.2rem;
-    background-color: var(--bg-surface);
+    background-color: var(--marble-surface);
     text-align: center;
     font-size: 1.6rem;
     outline: none;
-    border: .1rem solid var(--border-light);
+    border: .1rem solid var(--border-stone);
     cursor: pointer;
     transition: all 0.2s ease;
-    color: var(--text-main);
+    color: var(--iron-text);
   }
   .input-box select:focus{
-    background-color: var(--bg-parchment);
-    color: var(--royal-blue);
+    background-color: var(--stone-bg);
+    color: var(--bronze-accent);
     text-align: center;
   }
   button{
     width: 100%;
     background: transparent;
     border: none;
-    background: var(--royal-blue);
+    background: var(--bronze-accent);
     color: #fff;
     padding: 1.5rem;
     border-radius: .2rem;
@@ -161,5 +161,5 @@
   }
   button:hover{
     cursor: pointer;
-    background: var(--royal-blue-hover);
+    background: var(--bronze-hover);
   }
